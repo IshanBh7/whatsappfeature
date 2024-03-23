@@ -1,0 +1,33 @@
+/* App.css */
+.App{
+background-color: #252221;
+min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.description-container {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.description-container h2 {
+  font-size: 24px;
+  
+  margin-bottom: 10px;
+}
+
+.description-container p {
+  font-size: 16px;
+  line-height: 1.5;
+}
